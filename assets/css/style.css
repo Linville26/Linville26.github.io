@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
   visibility: hidden;
   padding: 10px 0;
-  background: #fff;
+  background: rgb(255, 255, 255);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -152,12 +152,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down li {
-  min-width: 180px;
+  min-width: 50px;
   position: relative;
 }
 
 .nav-menu .drop-down ul a {
-  padding: 10px 20px;
+  padding: 5px 2px 15px;
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
@@ -168,11 +168,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #d9232d;
 }
 
-.nav-menu .drop-down > a:after {
-  content: "\ea99";
-  font-family: IcoFont;
-  padding-left: 5px;
-}
+
 
 .nav-menu .drop-down .drop-down ul {
   top: 0;
@@ -189,12 +185,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 35px;
 }
 
-.nav-menu .drop-down .drop-down > a:after {
-  content: "\eaa0";
-  font-family: IcoFont;
-  position: absolute;
-  right: 15px;
-}
 
 @media (max-width: 1366px) {
   .nav-menu .drop-down .drop-down ul {
